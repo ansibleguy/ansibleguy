@@ -12,7 +12,7 @@ Feedback is appreciated!
 Keeping the user **interaction clean and simple**
 * Per example:
   
-  If a network admin wants to configure a [WireGuard VPN-Infrastructure](https://github.com/ansibleguy/infra_wireguard) he/she/it should not need to think about the role - just the abstracted topology!
+  If a network admin wants to configure a [WireGuard VPN-Infrastructure](https://github.com/ansibleguy/infra_wireguard) he/she/... should not need to think about the role - just the abstracted topology!
 
 * Each role should use as few 'public' variables as possible
 
@@ -42,7 +42,11 @@ Good **documentation**
   
   I can't tell how often I came across a tool with a nice feature-set but could not use it as of the lack of good documentation!
   
-* Examples (*config => result*) are very vital as not everybody wants to run the role to see what it actually does do.
+* Transparency is key when getting to know a role.
+
+  Examples (*config => result*) are very vital for this.
+  
+  Not everybody wants to run the role to see what it actually does do.
 
 
 #### 🔐	Security
