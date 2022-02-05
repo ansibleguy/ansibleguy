@@ -14,7 +14,7 @@ Keeping the user **interaction clean and simple**
   
   If a network admin wants to configure a [WireGuard VPN-Infrastructure](https://github.com/ansibleguy/infra_wireguard) he/she/... should not need to think about the role - just the abstracted topology!
 
-* Each role should use as few 'public' variables as possible
+* Each role should use as few 'top-level' variables as possible
 
   Most roles will take ONE nested variable (*dictionary*)
     
@@ -69,18 +69,3 @@ What are you waiting on? Automate! 😄
 
 Have a nice day!
 - AnsibleGuy
-
-<!--
-**ansibleguy/ansibleguy** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
