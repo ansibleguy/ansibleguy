@@ -2,7 +2,7 @@
 
 I enjoy creating automation templates using the platform Ansible (*by Red Hat*).
 
-Making my roles OpenSource should help other IT-Admins/-Engineers/-Enthusiasts/Developers getting their projects and infrastructure up-and-running faster.
+Creating Ansible Roles and Modules/Collections should help others to get started faster.
 
 Feedback is appreciated!
 
@@ -51,13 +51,9 @@ Good **documentation**
 
 #### 🔐	Security
 
-* My roles **WILL NOT ALLOW** unsecure configurations!
-
-* Per example:
-
-  Webservers as [Apache2](https://github.com/ansibleguy/infra_apache) and [Nginx](https://github.com/ansibleguy/infra_nginx) will not allow you to configure a site without using SSL!
-
-  Automation makes it **very easy** to add/generate certificates. 
+* As security is very important in todays IT environment I'm checking my Roles and Modules/Collections for security best-practises.
+* Roles and Modules will at least warn you if unsecure settings are used or will not even fail on you if you use them in an unsecure way.
+* You should always use encrypted connectivity => Automation makes it **very easy** to add/generate certificates. 
 
 ### Epilog
 
