@@ -6,6 +6,8 @@ Creating Ansible Roles and Modules/Collections should help others to get started
 
 Feedback is appreciated!
 
+GPG: [https://files.oxl.at/gpg/ansibleguy.gpg](https://files.oxl.at/gpg/ansibleguy.gpg)
+
 ### Principles
 
 #### 💭 User interaction
